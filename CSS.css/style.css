@@ -1,0 +1,152 @@
+/*COMMENT- This is a comment both single line and multi line in css */
+/* CSS RULE SET -- 
+syntax--         selector{                                     {} <-- declaration block 
+                        property:property value;                  <--declaration 
+                     }
+ */
+/* SELECTORS     USED TO TARGET OR SYTLE A HTML ELEMENT 
+  1. UNIVERSAL SELECTORS ----    USED TO TARGET  ALL THE HTML ELEMENTS FOR STYLING */
+    /* SYNTAX -- *{  property: value;   } */
+     /* *{
+        font-family: 'Courier New', Courier, monospace;
+        color: brown;
+     } */
+
+ /* 2. class and id selector -- used to target one html element not all of same element   , for differentiate , attribute used in html elements */
+ /* .one{
+    background-color: aqua;            class attribute suppose a html element has two classes ex. <p class="one one2">       then    .one.one2{}   same for id and one id one class as well */
+
+ /* }
+ #oneid{
+    background-color: blueviolet;
+    color: black;
+ }
+ */
+
+
+ /* CSS PROPERTIES */
+/* 1. CSS FONTS - font-family, font-style, font-size, font-weight, font-variant, */
+/* 2. CSS COLOR - NAME , RGB(0,0,0)TO (255,255,255), HEX - #000000*/
+button{
+    background-color:rgb(32,40, 255);
+    border: 2px solid black;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;  /* specifies font of text means  writing how text show in page */
+    font-style: italic;         
+    font-size: 50px;                /*for font size how big how small */
+    font-weight: 200px;            /*bold the text*/
+    font-variant: small-caps;     /*change all lowercase letters into upper */
+    color: red;
+    background-color: aqua;
+    line-height: 2em;      /*height of lineof block of content*/
+    width: 500px;         /*width of block of content means length*/
+    height:200px;       /*height of block of content*/ 
+    border-width: 5px;
+    border-style: solid;          /*border: 200px, solid, blue;*/
+    border-top: 40px;
+    border-color: blueviolet;
+    border-radius: 2em;      /* curviness of the ends of border*/
+    border-top-left-radius: 1em;  /*similarly for top-right, bottom-left, bottom-right*/
+    background-image: url(https://th.bing.com/th/id/OIP.zsEgRepQ6Uh5OYkkhJyn2gHaE5?pid=ImgDet&rs=1);
+
+    
+    
+}
+
+p{
+   
+    color: rgb(32,40, 255);
+    height:392px;
+    width: 450px;
+    background-color: red;
+   background-image: url(https://th.bing.com/th/id/OIP.sI_At3px9qmLx-9TNEee0gHaGK?pid=ImgDet&rs=1);
+   background-repeat: no-repeat;     /*if image is repeating for that purpose use background-repeat:no-repeat;*/
+   background-position: center;  /*this is for postioning the bg image to adjust on the page   value can be give as : __x, __y;*/
+   background-position: 20x,30y ;
+
+
+}
+ img{
+    width: 500px;  /*for giving width and similar to height as well to image   */ 
+ }
+ li{
+    background-color: #77b5b5; 
+    border-radius: 1em;
+    padding: 22px 21px;
+    border: 2px solid #2e2e86;
+    margin: 9px;
+ }
+
+ div{
+    border: 2px, solid, green;
+    
+ }
+/* BOX MODEL  IN CSS  --> BOX MODEL CONTAINS CONTENT, PADDING, BORDER , MARGIN
+     BORDER--- SYNTAX       1. border: width, style, color;    a.  border-width:2px;  b.   border-style: solid;  c. border-color: red;
+                                                         d. border-left: px;   border-right: ; border-top: ; border-bottom:
+                       2.border-radius: px (give equal  radius to all the ends )                                                      
+                       a. border-top-left-radius:  px     (similar to border-top-right-radius, border-bottom-left-radius, border-bottom-right-radius: )
+
+
+     PADDING/ MARGIN ---  SYNTAX     1.padding:(for all sides equal);    
+                            2. padding-top: 40px;     (similiar to left, right, bottom)   
+                            3. padding: top right bottom left;      (clockwise);
+                            4. padding: y(top/bottom)  x(left/right);    [for padding equal to top / bottom and left/ right
+
+
+
+*/
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

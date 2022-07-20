@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation</title>
+</head
+>
+<body>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>
+
+    <script>
+        //root node
+     console.log(document.documentElement);        //for access root node or element node -- html
+     console.log(document.body);                   // for access body node ---- body
+     console.log(document.head);                   // for access head node == head
+
+
+     //childrens node
+     console.log(document.body.childNodes);       // this also give indentation node and comment node as well
+     console.log(document.body.children);        //for access actual child node of body -- child element node == ul and script
+     console.log(document.body.firstElementChild);   // for access first child element of body   
+
+     //siblings 
+     const ulTag = document.body.children[0];     // ulTag assingn with ul
+     const firstLiTag = ulTag.children[0];       //firstLiTag assign with li
+     const secondLiTag = ulTag.children[1];
+     console.log(firstLiTag.nextElementSibling);     // give li
+     console.log(secondLiTag.previousElementSibling.textContent);    //previous sibling tag == li  and text content show text of li tag
+
+
+    </script>
+</body>
+</html>
